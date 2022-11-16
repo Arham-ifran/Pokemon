@@ -1,0 +1,59 @@
+.header .logo {
+  padding: 20px;
+}
+.items-list .item {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 20px;
+    max-width: 300px;
+    margin: auto;
+}
+.items-list .item:hover {
+  background: #eee;
+}
+
+.items-list .item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.items-list .item .image {
+    margin-bottom: 20px;
+}
+.images .item .image{
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #eee;
+}
+.product-details{
+  margin-bottom: 30px;
+}
+.product-details .images{
+  margin-bottom: 30px;
+}
+.product-info .action-btn {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.product-info .action-btn .btn {
+  width: 300px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-nickname .form-wrapper {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.add-nickname .form-wrapper label {
+    margin-bottom: 10px;
+}
